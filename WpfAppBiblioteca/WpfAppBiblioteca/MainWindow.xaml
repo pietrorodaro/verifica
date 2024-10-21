@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Libro" HorizontalAlignment="Left" Height="23" Margin="28,22,0,0" VerticalAlignment="Top" Width="108"/>
+        <TextBlock x:Name="titolotxt" HorizontalAlignment="Left" Height="20" Margin="28,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,1.302"><Run Language="it-it" Text="titolo"/></TextBlock>
+        <TextBlock x:Name="autoretxt" HorizontalAlignment="Left" Height="18" Margin="28,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54"><Run Language="it-it" Text="autore"/></TextBlock>
+        <TextBlock x:Name="paginetxt" HorizontalAlignment="Left" Height="21" Margin="28,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54"><Run Language="it-it" Text="pagine"/></TextBlock>
+        <Button Content="Salva libro" HorizontalAlignment="Left" Height="38" Margin="28,227,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
+        <Label x:Name="Biblioteca_lbl" Content="Biblioteca" HorizontalAlignment="Left" Height="23" Margin="423,22,0,0" VerticalAlignment="Top" Width="101"/>
+        <TextBlock x:Name="nome_txt" HorizontalAlignment="Left" Height="20" Margin="429,62,0,0" TextWrapping="Wrap" Text="nome" VerticalAlignment="Top" Width="57"/>
+        <TextBlock x:Name="indirizzo_txt" HorizontalAlignment="Left" Height="18" Margin="423,96,0,0" TextWrapping="Wrap" Text="indirizzo" VerticalAlignment="Top" Width="56" RenderTransformOrigin="0.304,0.095"/>
+        <Button x:Name="crea_biblioteca_btn" Content="Crea biblioteca" HorizontalAlignment="Left" Height="38" Margin="400,227,0,0" VerticalAlignment="Top" Width="95" Click="Button_Click_1"/>
+        <TextBlock TextWrapping="Wrap" Margin="-7,0,-48,-10"/>
+        <TextBlock x:Name="orari_txt" HorizontalAlignment="Left" Height="21" Margin="429,144,0,0" TextWrapping="Wrap" Text="orari" VerticalAlignment="Top" Width="57"/>
+        <Label x:Name="durata_lbl" Content="" HorizontalAlignment="Left" Height="16" Margin="136,105,0,0" VerticalAlignment="Top" Width="94"/>
 
     </Grid>
 </Window>

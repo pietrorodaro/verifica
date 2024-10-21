@@ -16,9 +16,15 @@ namespace WpfAppBiblioteca
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            InitializeComponent();
+            Libro libro = new Libro (string titolotxt.Text, string autoretxt.Text, int (int)paginetxt.Text);
+            durata_lbl.Text = libro.readingTime();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
