@@ -19,6 +19,7 @@
         <TextBlock TextWrapping="Wrap" Margin="-7,0,-48,-10"/>
         <TextBlock x:Name="orari_txt" HorizontalAlignment="Left" Height="21" Margin="429,144,0,0" TextWrapping="Wrap" Text="orari" VerticalAlignment="Top" Width="57"/>
         <Label x:Name="durata_lbl" Content="" HorizontalAlignment="Left" Height="16" Margin="136,105,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="28" Margin="168,126,0,0" VerticalAlignment="Top" Width="102"/>
 
     </Grid>
 </Window>
